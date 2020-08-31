@@ -1,0 +1,156 @@
+body{
+    background-color: #F4F5F7;
+}
+
+/* Color Schemes -------------------------------------------------- */
+
+#c1 {
+    height: 50px;
+    width: 100px;
+    background-color: #3B86FF;
+}
+
+#c2 {
+    height: 50px;
+    width: 100px;
+    background-color: #354052;
+}
+
+#c3 {
+    height: 50px;
+    width: 100px;
+    background-color: #737373;
+}
+
+#c4 {
+    height: 50px;
+    width: 100px;
+    background-color: #F4F5F7;
+}
+
+#c5 {
+    height: 50px;
+    width: 100px;
+    background-color: #AAAAAA;
+}
+
+#c6 {
+    height: 50px;
+    width: 100px;
+    background-color: #03cffc;
+}
+
+/* Buttons -------------------------------------------------- */
+
+.b1 {
+    height: 40px;
+    width: 80px;
+    color: #00d7c3;
+    background-color: transparent;
+    border: 3px solid #00d7c3;
+    border-radius: 50px;
+    transition: all .1s ease-in-out;
+}
+.b1:hover{
+    background-color: #00d7c3;
+    font-weight: bold;
+    color: white;
+    border: 3px solid #00d7c3;
+}
+
+.b2 {
+    height: 40px;
+    width: 80px;
+    color: red;
+    background-color: transparent;
+    border: 3px solid red;
+    border-radius: 50px;
+    transition: all .1s ease-in-out;
+}
+.b2:hover{
+    background-color: red;
+    font-weight: bold;
+    color: white;
+    border: 3px solid red;
+}
+
+.b3 {
+    height: 35px;
+    width: 100px;
+    font-weight: bold;
+    color: #354052;
+    background-color: transparent;
+    border: 1px solid #bdbdbd;
+    border-radius: 8px;
+    transition: all .15s ease-in-out;
+    background-image: linear-gradient(white,#ededed);
+}
+.b3:hover{
+    background-color: #f2f3f5;
+    background-image: linear-gradient(#ededed,#ededed);
+}
+
+.b4 {
+    height: 35px;
+    width: 100px;
+    font-weight: bold;
+    color: #354052;
+    background-color: transparent;
+    border: 1px solid #F4F5F7;
+
+}
+.b4:hover{
+    background-color: #f2f3f5;
+    border-radius: 4px;
+    background-image: linear-gradient(#ededed,#ededed);
+}
+
+/* Checkboxes  -------------------------------------------------- */
+
+
+/* Search Bar --------------------------------------------------- */
+.search-box {
+    position: absolute;
+    border-radius: 40px;
+    background-color: white;
+    padding: 8px;
+}
+
+.search-btn {
+    color: black;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 11px;
+}
+
+.search-btn:hover{
+    text-decoration: none;
+}
+
+
+.search-text{
+    border: none;
+    float: left;
+    padding: 0px;
+    line-height: 40px;
+    width: 240px;
+    margin-left: 10px;
+}
+
+.search-text:focus{
+    outline: none;
+    border: none;
+    float: left;
+    padding: 0;
+    line-height: 40px;
+    width: 240px;
+}
+
+.fas {
+    opacity: 30%;
+}
